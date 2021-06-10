@@ -1,12 +1,11 @@
-import {Link, useLocation} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 function Nav() {
   return (
     <nav className="navbar is-primary" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">Brand</Link>
-
-        <Link role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" 
+        <div role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" 
           onClick={() => {
               document.querySelector('#navMenu').classList.toggle('is-active');
               document.querySelector('.navbar-burger').classList.toggle('is-active');
@@ -15,7 +14,7 @@ function Nav() {
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
-        </Link>
+        </div>
         
       </div>
 
