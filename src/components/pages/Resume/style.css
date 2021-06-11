@@ -1,0 +1,37 @@
+
+#resume h2 {
+  text-align: center;
+}
+
+#resume h3 {
+  font-variant: small-caps;
+}
+
+#resume .download .icon-text{
+  justify-content: flex-end;
+}
+
+#resume .link .icon-text {
+  justify-content: center;
+}
+
+#resume .employer {
+  font-weight: 700;
+  margin: .1em 0;
+}
+
+#resume .job-title {
+  margin: .1em 0;
+}
+
+#resume .details {
+  list-style: circle;
+}
+
+#resume .details > li {
+  margin-left: 2em;
+}
+
+#resume .major {
+  font-style: italic;
+}
