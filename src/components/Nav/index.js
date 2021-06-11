@@ -25,8 +25,8 @@ function Nav() {
 
         <div className="navbar-start">
           {/* <Link to="/" className="navbar-item">About</Link> */}
-          <Link to="/projects" className="navbar-item">Projects</Link>
           <Link to="/" className="navbar-item">Resume</Link>
+          <Link to="/projects" className="navbar-item">Projects</Link>
 
         </div>
 
