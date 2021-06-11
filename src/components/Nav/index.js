@@ -23,6 +23,8 @@ function Nav() {
         <div className="navbar-start">
           <Link to="/" className="navbar-item">About</Link>
           <Link to="/projects" className="navbar-item">Projects</Link>
+          <Link to="/resume" className="navbar-item">Resume</Link>
+
         </div>
 
         <div className="navbar-end">
