@@ -66,14 +66,14 @@ function Resume() {
             <div className="tile is-parent">
               <article className="tile is-child notification is-info is-light">
                 <div className="content">
-                  <p>JavaScript / PHP / HTML5 / CSS3</p>
+                  <p>JavaScript / PHP / HTML5 / CSS3 / SCSS </p>
                 </div>
               </article>
             </div>
             <div className="tile is-parent">
               <article className="tile is-child notification is-danger is-light">
                 <div className="content">
-                  <p>Node.js / React.js / jQuery / Express / Handlebars</p>
+                  <p>Node.js / React.js / jQuery / Express / Handlebars / HubL</p>
                 </div>
               </article>
             </div>
@@ -96,14 +96,14 @@ function Resume() {
             <div className="tile is-parent">
               <article className="tile is-child notification is-primary is-light">
                 <div className="content">
-                  <p>Git / Heroku</p>
+                  <p>Git / Heroku / Kinsta / WP Engine</p>
                 </div>
               </article>
             </div>
             <div className="tile is-parent">
               <article className="tile is-child notification is-link is-light">
                 <div className="content">
-                  <p>WordPress / Custom Themes</p>
+                  <p>WordPress / HubSpot / Custom Themes</p>
                 </div>
               </article>
             </div>
@@ -128,6 +128,15 @@ function Resume() {
           {/* EXPERIENCE */}
           <div className="column is-full">
             <h3 className="title is-3">Experience</h3>
+
+            <div className="column is-full">
+              <p className="employer">New Breed | Burlington, VT</p>
+              <p className="job-title">Front End Web Developer</p>
+              <ul className="details">
+                <li>Build new websites for B2B companies as part of a multi-phase approach for increasing demand-generation</li>
+                <li>Work with a team of strategists and designers to delight clients with sites that speak to their company's look and feel</li>
+              </ul>
+            </div>
 
             <div className="column is-full">
               <p className="employer">Trilogy Education Services | University of Connecticut</p>
